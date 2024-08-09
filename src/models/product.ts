@@ -88,4 +88,6 @@ export type Product = {
   minHandlingTime?: number;
   tax?: Tax;
   taxCategory?: string;
+  quantity?: number;
+  [key: string]: any;
 };
